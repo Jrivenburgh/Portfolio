@@ -39,3 +39,24 @@
   footer p {
     margin-bottom: .25rem;
   }
+  @media (max-width: 980px) {
+    .masthead-brand {
+      float: left;
+    }
+    .nav-masthead {
+      float: left;
+    }
+  @media (max-width: 768px) {
+      .masthead-brand {
+        float: left;
+      }
+      .nav-masthead {
+        float: left;
+      }
+  @media (max-width: 640px) {
+        .masthead-brand {
+          float: left;
+        }
+        .nav-masthead {
+          float: left;
+        }}}} 

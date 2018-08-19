@@ -57,7 +57,27 @@ html {
     line-height: 60px; /* Vertically center the text there */
     background-color:rgba(47, 240, 214, 0.808);
   }
-  
+  @media (max-width: 980px) {
+    .masthead-brand {
+      float: left;
+    }
+    .nav-masthead {
+      float: left;
+    }
+  @media (max-width: 768px) {
+      .masthead-brand {
+        float: left;
+      }
+      .nav-masthead {
+        float: left;
+      }
+  @media (max-width: 640px) {
+        .masthead-brand {
+          float: left;
+        }
+        .nav-masthead {
+          float: left;
+        }}}}    
   
   /* Custom page CSS
   -------------------------------------------------- */
